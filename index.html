@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Construction API</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Construction Checker</h1>
+        <p>Check home safety information before your next job.</p>
+      </header>
+
+      <form id="zip-form">
+        <label for="zip-input"> ZIP Code </label>
+
+        <input
+          id="zip-input"
+          type="text"
+          maxlength="5"
+          placeholder="Enter ZIP Code"
+        />
+
+        <button type="submit">Check Area</button>
+      </form>
+
+      <section id="results"></section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
