@@ -15,3 +15,9 @@ class ZipCheckupAPI {
     return result.data;
   }
 }
+
+class ConstructionCheckApp {
+  constructor() {
+    this.api = new ZipCheckupAPI();
+  }
+}
